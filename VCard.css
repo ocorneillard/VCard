@@ -1,0 +1,66 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(5, auto);
+  background: red;
+  padding : 10px;
+}
+
+.grid > div {
+  background-color: white;
+  border : 1px solid black;
+  margin : 10px;
+}
+
+.gr1 {
+  grid-area: 1 / 4 / 3 / 6;
+}
+
+.grName {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.gr3 {
+  grid-area : 1 / 1 / 7 / 1 ;
+}
+
+.gr4 {
+  grid-area : 3 / 2 / 7 / 4;
+}
+
+.gr5 {
+  grid-area: 3 / 4 / 7 / 6;
+}
+
+.gr6 {
+  grid-area: 7 / 1 / 8 / 6;
+}
+
+.grid2 {
+  display : grid;
+  grid-template-columns: 75% 25%;
+  padding : 1px;
+  margin: 10px;
+
+}
+
+.grb {
+  border : blue 2px solid;
+  margin : 10px;
+  padding : 1px;
+  padding-right : 1px;
+  text-align : right;
+
+}
+
+.grb1 {
+  width: 50%;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.bouton {
+  margin-left: 10px;
+}
